@@ -9,8 +9,8 @@ const std::string_view RESET = "\033[0m";
 const std::string_view BOW = "\033[30;47m";
 const std::string_view WOB = "\033[37;40m";
 
-constexpr std::uint8_t WIDTH = 40;
-constexpr std::uint8_t HEIGHT = 40;
+constexpr std::uint8_t WIDTH = 60;
+constexpr std::uint8_t HEIGHT = 20;
 
 char generate()
 {
